@@ -12,6 +12,7 @@
     "array-callback-return": "off",
     "react-hooks/exhaustive-deps": "off",
     "@next/next/no-img-element": "off",
-    "quotes": [2, "single"]
+    "quotes": [2, "single"],
+    "camelcase": "off"
   }
 }
