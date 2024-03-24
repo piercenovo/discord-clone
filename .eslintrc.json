@@ -13,6 +13,8 @@
     "react-hooks/exhaustive-deps": "off",
     "@next/next/no-img-element": "off",
     "quotes": [2, "single"],
-    "camelcase": "off"
+    "camelcase": "off",
+    "no-var": "off",
+    "no-unused-vars": "off"
   }
 }
