@@ -42,7 +42,7 @@ export const FileUpload = ({
   }
 
   return (
-    <div className='relative size-56'>
+    <div className='relative w-72 h-[13.6rem]'>
       <UploadDropzone
         endpoint={endpoint}
         onClientUploadComplete={(res => {
