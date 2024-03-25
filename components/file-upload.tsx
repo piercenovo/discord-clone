@@ -7,8 +7,8 @@ import '@uploadthing/react/styles.css'
 import Image from 'next/image'
 
 interface FileUploadProps {
-  handleChange: (url?: string) => void;
-  value: string;
+  handleChange: (url?: string) => void
+  value: string
   endpoint: 'messageFile' | 'serverImage'
 }
 
