@@ -45,6 +45,7 @@ export const FileUpload = ({
     <div className='relative w-72 h-[13.6rem]'>
       <UploadDropzone
         endpoint={endpoint}
+        className='h-[13.6rem]'
         onClientUploadComplete={(res => {
           handleChange(res?.[0].url)
         })}
