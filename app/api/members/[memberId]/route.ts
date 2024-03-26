@@ -17,11 +17,11 @@ export async function DELETE(
     }
 
     if (!serverId) {
-      return new NextResponse('Server ID missing', { status: 400 })
+      return new NextResponse('Server ID Missing', { status: 400 })
     }
 
     if (!params.memberId) {
-      return new NextResponse('Member ID missing', { status: 400 })
+      return new NextResponse('Member ID Missing', { status: 400 })
     }
 
     const server = await db.server.update({
@@ -74,11 +74,11 @@ export async function PATCH(
     }
 
     if (!serverId) {
-      return new NextResponse('Server ID missing', { status: 400 })
+      return new NextResponse('Server ID Missing', { status: 400 })
     }
 
     if (!params.memberId) {
-      return new NextResponse('Member ID missing', { status: 400 })
+      return new NextResponse('Member ID Missing', { status: 400 })
     }
 
     const server = await db.server.update({
