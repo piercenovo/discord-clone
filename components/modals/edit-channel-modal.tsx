@@ -110,7 +110,7 @@ export const EditChannelModal = () => {
         </DialogHeader>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
-            <div className='space-y-10 px-6'>
+            <div className='space-y-4 px-6'>
               <FormField
                 control={form.control}
                 name='name'

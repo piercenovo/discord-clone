@@ -94,7 +94,7 @@ export const EditServerModal = () => {
         </DialogHeader>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-8'>
-            <div className='space-y-10 px-6'>
+            <div className='space-y-4 px-6'>
               <div className='flex items-center justify-center text-center'>
                 <FormField
                   control={form.control}
