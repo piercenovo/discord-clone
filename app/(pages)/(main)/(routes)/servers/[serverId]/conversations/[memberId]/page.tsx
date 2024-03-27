@@ -1,7 +1,7 @@
 const MemberIdPage = () => {
   return (
     <div>
-      Hola Member
+      Member ID
     </div>
   )
 }
