@@ -16,6 +16,7 @@
     "camelcase": "off",
     "no-var": "off",
     "no-unused-vars": "off",
-    "react/jsx-handler-names": "off"
+    "react/jsx-handler-names": "off",
+    "prefer-const": "off"
   }
 }
