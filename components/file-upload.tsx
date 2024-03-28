@@ -1,8 +1,8 @@
 'use client'
 
-import { File, X } from 'lucide-react'
+import { FileIcon, X } from 'lucide-react'
 
-import { UploadButton, UploadDropzone } from '@/lib/uploadthing'
+import { UploadButton } from '@/lib/uploadthing'
 import Image from 'next/image'
 
 interface FileUploadProps {
@@ -43,7 +43,7 @@ export const FileUpload = ({
   if (value && fileType === 'pdf') {
     return (
       <div className='relative h-20 w-full flex items-center p-2 rounded-md bg-background/10'>
-        <File className='size-10 fill-indigo-200 stroke-indigo-400' />
+        <FileIcon className='size-10 fill-indigo-200 stroke-indigo-400' />
         <a
           href={value}
           target='_blank'
