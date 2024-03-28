@@ -147,7 +147,7 @@ export const ChatItem = ({
                 {roleIconMap[member.role]}
               </ActionTooltip>
             </div>
-            <span className='text-[0.625rem] text-zinc-500 dark:text-zinc-400'>
+            <span className='text-[11px] text-zinc-500 dark:text-zinc-400'>
               {timestamp}
             </span>
           </div>
